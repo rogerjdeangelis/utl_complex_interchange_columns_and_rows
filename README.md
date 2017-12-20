@@ -2,6 +2,23 @@
 Reorganizing a complex matrix into another complex matrix. R. SAS and WPS solutions.
 
     ```  Complex reorganisation of a data frame in R and SAS/WPS                                                                                                      ```
+                                                                                                                                                                 ```
+```  HAVE                                                                                        RULES                                                            ```
+```  ====                                                                                        =====                                                            ```
+```  SD1.HAVE total obs=6                                                          V1=1-A10         v4=1-A10                                                      ```
+```                                                                            species=Diptera  species=Episyrphu                                                 ```
+```                                                                                                                                                               ```
+```                                                                Obs    COL1     SPECIES_1       SPECIES_2  SPECIES_3                                           ```
+```     SPECIES      V1       V2       V3       V4       V5     |                                                                                                 ```
+```                                                             |    1    1-A10    Diptera         Episyrphu                                                      ```
+```    Eupeodesc    1-G3     1-F1     1-E11    1-C10    1-A3    |                                                                                                 ```
+```    Diptera      1-A10    1-B2     1-C1     1-G7     1-E11   |                  V5=1-A3                                                                        ```
+```    Episyrphu    2-C3     2-A10    1-C11    1-A10    2-B4    |                 species=Eupeodesc                                                               ```
+```    Aphidie      1-B9     1-D7     2-A3     1-C8     2-C11   |                                                                                                 ```
+```    Ericaphis    1-B9     1-D7     2-A3     1-C8     2-C11   |    2    1-A3     Eupeodesc                                                                      ```
+```    Hemiptera    1-B9     1-D7     2-A3     1-C8     2-C11   |                                                                                                 ```
+```                                                                                                                                                               ```
+```                                                               
     ```                                                                                                                                                               ```
     ```                                                                                                                                                               ```
     ```    Two solutions wps/proc-r and wps/sas                                                                                                                       ```
